@@ -1,0 +1,185 @@
+@media (max-width:900px) {
+
+    body{
+        font-size: 15px;
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #0B2447;
+        margin: 6px 0;
+    }
+
+    .nav-bar{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: white;
+        box-shadow: 0 16px 8px -9px rgba(191,191,191, 1);
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+    .nav-bar.active{
+        height:380px;
+    }
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin:  50px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+    }
+
+    .bagian-home{
+        text-align: center;
+    }
+
+    article{
+        margin: 0px;
+        margin-top: -70px;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside{
+        margin: 20px 0 0 0;
+    }
+
+    .btn-home{
+        display: none;
+    }
+
+    .card{
+        display: none;
+    }
+
+    .article-about{
+        display: flex;
+        flex-direction: column;
+        float: none;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .bahasa-pemograman{
+        margin-bottom: 30px;
+    }
+
+    .bagian-contact{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    
+    .article-contact{
+       margin: 0;
+    }
+
+    .Contact{
+        margin: auto;
+    }
+
+    .article-c{
+        margin: auto;
+    }
+
+    .bxsocial-media{
+        margin: auto;
+    }
+
+    footer{
+        margin-top:300px;
+    }
+
+    .kotak-kotak{
+        display: flex;
+        gap: 1px;
+    }
+
+    .kotak-service{
+        height: 100px;
+        width: 200px;
+        margin: 0 10px;
+        margin-top: 30px;
+
+    }
+
+    .kotak-service img{
+        width: 100px;
+        border-radius:30px ;
+        height: 50px;
+        object-fit: cover;
+    }
+
+    .card-project{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bx-project{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bagian-contact{
+        margin-top: 330px;
+    }
+}
+
+@media (max-width:600px) {
+    .bagian-home{
+        height: 900px;
+    }
+    
+    .bagian-about{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .about1{
+        width: 80%;
+        margin: auto;
+    }
+
+    .bahasa-pemograman{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .pemograman img{
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+    .about1 h1{
+        width: auto;
+    }
+}
